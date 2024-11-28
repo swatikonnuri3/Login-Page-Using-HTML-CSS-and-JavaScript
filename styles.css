@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(135deg,#3b8d99,#6b5b95);
+
+
+}
+.login-container{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 50%;
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;/* Add space below the heading */
+    color: #6b5b95;
+
+}
+.input-group{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+label{
+    display: block;/* Ensure the label is on a new line */
+    margin-bottom: 10px;
+    color: rgb(221, 17, 126);
+    font-size: 20px;
+   
+}
+input{
+    width: 100%;/* Take full width of the container */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;/* Light gray border */
+    border-radius: 7px;
+    box-sizing: border-box;/* Include padding and border in the width */
+}
+input:focus{
+    border-color: #3b8d99;/* Change border color to match the theme */
+    outline: None;/* Remove the default focus outline */
+}
+.button-group{
+    margin-top: 30px;/* Add space above the button */
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #3b8d99;/* Primary theme color */
+    color: white;/* White text */
+    border: none;/* Remove default border */
+    border-radius: 5px;
+    font-size: 17px;/* Larger font size for the button text */
+    cursor: pointer;
+
+}
+button:hover{
+    border-color: #2c6f7a; /* Slightly darker shade on hover */
+
+}
+.errorMessage{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+}
